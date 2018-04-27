@@ -1,3 +1,45 @@
-/*
- * Estilos de tu proyecto
- */
+
+body{
+  margin:0;
+}
+
+nav {
+  background-color: #2c3e4f;
+  height: 80px;
+
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.menu a {
+  margin-right: 15px;
+  border: 1px;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.principal {
+  padding: 1.5em;
+  width: 49%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.menu {
+  padding: 1em;
+  width: 50%;
+  position: relative;
+  left: 160px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.menu a:hover{
+  color: #18bc9c;
+}
